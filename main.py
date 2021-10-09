@@ -9,7 +9,7 @@ class DescobreSenha:
 
     @staticmethod
     def pedir_senha():
-        senha = input('Por favor, insira a senha do cadeado (letras de A-Z e números): ')
+        senha = input('Por favor, insira a senha (letras de A-Z e números): ')
         return senha.strip()
 
     def verifica_senha(self):
